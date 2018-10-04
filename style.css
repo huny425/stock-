@@ -1,0 +1,38 @@
+body{
+  margin:0px
+}
+
+a{
+  text-decoration: none;
+}
+h1{
+  border-bottom: 2px solid pink;
+  margin: 0px;
+  padding:50px;
+}
+#grid{
+  border: 0px solid pink;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  padding:0px;
+}
+#article{
+  border-left: 2px solid pink;
+  padding:20px;
+}
+#grid ol{
+
+}
+
+@media(max-width:800px){
+  h1{
+    border:none
+
+  }
+  #grid{
+    display:block;
+  }
+  #article{
+    border-left: 0;
+  }
+}
